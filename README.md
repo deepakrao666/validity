@@ -59,14 +59,18 @@ Use Docker file within the file structure to run the project:
 This should run the application on 0.0.0.0:8080
 
 Open Urls:
+1. Swagger :
+    
+    `/swagger-ui.html`
 
-/swagger-ui.html
+2. Status :
 
-status
-/
+    `/`
 
-health
-/health
+3. Health : 
 
-file upload and other utilities 
-/upload
+    `/health`
+
+4. File upload and other utilities :
+
+    `/upload`
