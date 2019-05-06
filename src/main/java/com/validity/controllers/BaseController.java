@@ -20,12 +20,12 @@ public class BaseController {
 
     @GetMapping("/")
     public ResponseEntity<String> status() {
-        return new ResponseEntity<>("status : up", HttpStatus.OK);
+        return new ResponseEntity<>("{ status : up }", HttpStatus.OK);
     }
 
     @GetMapping("/health")
     public ResponseEntity<String> health() {
-        return new ResponseEntity<>("status : up", HttpStatus.OK);
+        return new ResponseEntity<>("{ status : up }", HttpStatus.OK);
     }
 
     @GetMapping("/user")
